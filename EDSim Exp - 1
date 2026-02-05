@@ -1,0 +1,14 @@
+ORG 0000H
+
+MOV A, #02H
+MOV B, #08H
+MUL AB
+MOV R0, A
+
+MOV A, #20H
+ADD A, #20H
+INC A
+
+MOV B, R0
+
+END
